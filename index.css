@@ -34,6 +34,7 @@ h2 {
     padding: 10px;
     line-height: 28px;
     text-align: center;
+    font-size: 20px;
 }
   .first{
     background-image: url("./img/quizapp.png");
@@ -80,6 +81,7 @@ h2 {
     }
     .btn-group {
         text-align: center;
+        margin: 0px 0px 100px 0px;
     }
      
 
