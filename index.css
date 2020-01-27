@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     max-width: 600px;
-    background:white;
+    background: black;
   }
 .viewlink{
 margin: 40px 0px 0px 0px;
@@ -14,22 +14,23 @@ text-align: center;
       }
 .abouttext{
 text-align: center;
+color: white;
 }
 
 h1 {
     font-family: 'Bungee Inline', cursive;
     text-align: center;
     font-size: 75px;
-    color: #024959;
+    color: #f2ae30;
     margin: 60px 0 0 0;
 }
 h2 {
     text-align: center;
-    color: #593e25;
+    color: #d9c3a9;
     margin: 0px 0 70px 0;
 }
 .projects{
-    color: black;
+    color: white;
     height: 30px;
     padding: 10px;
     line-height: 28px;
