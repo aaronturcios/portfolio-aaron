@@ -42,6 +42,7 @@ h2 {
     position: relative;
     margin: 50px 0 0 0;
     max-width: 600px;
+    border:1px solid  #f2ae30;
   }
   .second{
     background-image: url("./img/bookmark.png");
@@ -50,8 +51,7 @@ h2 {
     position: relative;
     margin: 50px 0 0 0;
     max-width: 600px;
-       box-shadow: 3px 4px 0px 0px;
-       border:1px solid  #f2ae30;
+    border:1px solid  #f2ae30;
   
   }
   button {
@@ -76,6 +76,9 @@ h2 {
         top:1px;
     }
     small {
+        text-align: center;
+    }
+    .btn-group {
         text-align: center;
     }
      
