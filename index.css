@@ -6,7 +6,12 @@ body {
   }
 .viewlink{
 margin: 40px 0px 0px 0px;
+text-align: center;
   }
+.viewlinktwo{
+    margin: 60px 0px 0px 0px;
+    text-align: center;
+      }
 .abouttext{
 text-align: center;
 }
@@ -28,33 +33,52 @@ h2 {
     height: 30px;
     padding: 10px;
     line-height: 28px;
-    text-align: justify;
-    
-  }
+    text-align: center;
+}
   .first{
     background-image: url("./img/quizapp.png");
     height: 300px;
     background-size: cover;
     position: relative;
-    margin: 150px 0 0 0;
-    border-radius: 12px;
+    margin: 50px 0 0 0;
     max-width: 600px;
   }
   .second{
-    background-image: url("./img/bookmarkapp.png");
+    background-image: url("./img/bookmark.png");
     height: 300px;
     background-size: cover;
     position: relative;
-    margin: 150px 0 0 0;
-    border-radius: 12px;
+    margin: 50px 0 0 0;
     max-width: 600px;
+    border:1px solid black;
+  
   }
   button {
       margin: 30px 0px 0px 0px;
-      position:relative;
-      left:35%;
+       box-shadow: 3px 4px 0px 0px #f2ae30;
+        background:linear-gradient(to bottom, #024959 5%, #024959 100%);
+        background-color:#024959;
+        border-radius:18px;
+        border:1px solid #024959;
+        color:#ffffff;
+        font-size:22px;
+        padding:12px 23px;
+        text-decoration:none;
+
+    }
+    .button:hover {
+        background:linear-gradient(to bottom, #024959 5%, #024959 100%);
+        background-color:#024959;
+    }
+    .button:active {
+        position:relative;
+        top:1px;
+    }
+    small {
+        text-align: center;
+    }
      
-  }
+
  
   @media (max-width: 500px) {
     h1 {
